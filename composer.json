@@ -1,0 +1,40 @@
+{
+    "name": "iracode-com/filament-reporting",
+    "description": "Filament reporting system to apply advanced filtering on database records",
+    "type": "filament-plugin",
+    "keywords": [
+        "laravel",
+        "filament",
+        "filament-reporting",
+        "filtering",
+        "export"
+    ],
+    "require": {
+        "filament/filament": "^3.2",
+        "spatie/laravel-package-tools": "^1.16",
+        "hekmatinasser/verta": "^8.4",
+        "maatwebsite/excel": "^3.1",
+        "ariaieboy/filament-jalali-datetime": "^1.4",
+        "ariaieboy/filament-jalali-datetimepicker": "^3.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IracodeCom\\FilamentReporting\\FilamentReportingServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IracodeCom\\FilamentReporting\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ardavanshamroshan",
+            "email": "ardavanshamroshan@yahoo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
